@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
 
 :root{
-    --primary-color: #6d28d9
+    --primary-color: #6d28d9;
     --primary-color-dark: #5b21b6;
     --text-dark: #0f172a;
     --text-light: #64748b;
@@ -146,14 +146,14 @@ form input{
 }
 
 form button{
-    padding: .75rem 1rem;
+    padding: 0.75rem 1rem;
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     color: var(--extra-light);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 form button:hover{
